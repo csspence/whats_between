@@ -9,6 +9,11 @@ b = 4
 --> [1, 2, 3, 4]
 */
 
-function between(a, b) {
-  // your code here
+const between = (a, b) => {
+  const arr = [];
+  for(let i = a; i < b + 1; i++) {
+    arr.push(i);
+  }
+
+  return arr;
 }
